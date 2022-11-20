@@ -1,0 +1,32 @@
+body{
+    background: url(bg.jpg)   center;
+    width: 95%;
+    margin: auto;
+    max-width: 800px;
+    
+
+    font-family: 'lato';
+    line-height: 1.5;
+    color: rgb(255, 251, 251);}
+    main{
+        background: rgba(0, 0, 0, 0.5);
+        padding: 5px 40px;
+        margin-top: 20px;
+        border-radius:10px;
+    }
+.logo,.band-name,.headline{
+    text-align:center;
+}
+.concerts{
+    margin: 30px 0;
+    text-align: center;
+    width: 100%;
+
+}
+.concerts table{
+    background: rgba(255, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+
+}

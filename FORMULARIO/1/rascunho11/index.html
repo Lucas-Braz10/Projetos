@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+</head>
+<body>
+    <form action="">
+        <fieldset><legend><b>Cadastro de devs</b></legend>
+            <div>
+            <label for="nome">
+                nome
+            </label>
+            <input type="text" name="nome" id="nome"required>
+        </div>
+        <div>
+            <label for="sobrenome">
+                sobrenome
+            </label>
+            <input type="text" name="sobrenome" id="sobrenome"required>
+        </div>
+        <div>
+            <label for="email">
+                email:
+            </label>
+            <input type="email" name="email" id="email"required>
+        </div>
+        <div>
+            <p> De qual lado da aplicação você desenvolve?</p>
+            <input type="radio" name="front-end" id="front-end"required>
+            <label for="front-end">Front-end</label> 
+            <input type="radio" name="back-end" id="back-end"required>
+            <label for="back-end">back-end</label> 
+            <input type="radio" name="fullstack" id="fullstack" required >
+            <label for="fullstack">fullstack</label>
+           
+        </div>
+        <br>
+        <div>
+            <label>senioridade</label>
+            <select id="senioridade" >
+                <option value="">Selecione</option>
+                <option value="">Junior</option>
+                <option value="">Pleno</option>
+                <option value="">Senior</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <p>Selecione as tecnologias que utiliza:</p>
+            <input type="checkbox" name="tecnologia1" id="tecnologia1">HTML</input>
+            <input type="checkbox" name="tecnologia2" id="tecnologia2">CSS </input>
+            <input type="checkbox" name="tecnologia3" id="tecnologia3">JAVASCRIPT</input>
+            <input type="checkbox" name="tecnologia4" id="tecnologia4">PHP </input>
+            <input type="checkbox" name="tecnologia5" id="tecnologia5">"C#</input>
+            <input type="checkbox" name="tecnologia6" id="tecnologia6">PYTHON</input>
+            <input type="checkbox" name="tecnologia7" id="tecnologia7">JAVA</input>
+        </div>
+        <br>
+        <div>
+            <p><b>conte um pouco da sua experiencia</b></p><br>
+            <textarea name="" id="" cols="70" rows="15"></textarea>
+        </div>
+        <input type="submit" value="enviar">
+        
+        </fieldset>
+       
+
+
+    </form>
+    
+</body>
+</html>
